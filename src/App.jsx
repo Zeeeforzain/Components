@@ -1,5 +1,6 @@
 import "./App.css";
 import Button from "./Components/Button";
+import Checkbox from "./Components/Checkbox";
 import Paragraph from "./Components/Paragraph";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       fontFamily="Helvetica"
       fontWeight="700"
       />
+      <Checkbox width="50px" height="30px"/>
     </div>
   );
 }
