@@ -20,5 +20,11 @@ export default function Button(props) {
 }>
     {props.btnName}</button>
     </div>
+    
   );
+}
+Button.defaultProps = {
+    btnName: 'Enter Button Name',
+    backgroundColor:'Whitesmoke',
+    color:'Black'
 }

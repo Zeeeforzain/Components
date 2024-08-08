@@ -1,5 +1,6 @@
 import "./App.css";
 import Button from "./Components/Button";
+import Paragraph from "./Components/Paragraph";
 
 function App() {
   return (
@@ -15,7 +16,13 @@ function App() {
       fontSize="15px"
       fontFamily="Helvetica"
       fontWeight="700"
-      hoverBackgroudColor='white'
+      />
+      <Paragraph 
+      paragraphText="This is paragraph component!"
+      color="Brown"
+      fontSize="50px"
+      fontFamily="Helvetica"
+      fontWeight="700"
       />
     </div>
   );
