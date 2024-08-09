@@ -3,6 +3,7 @@ import React from 'react';
 export default function TextField(props) {
   return (
     <div>
+      
       <input
       type={props.type}
       placeholder={props.placeHolder}
