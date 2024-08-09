@@ -5,16 +5,7 @@ export default function Checkbox(props) {
     <div className='checkbox'>
       <input 
       style={
-        {
-            backgroundColor: props.backgroundColor, 
-            width: props.width, 
-            color: props.color,
-            border: props.border,
-            borderRadius: props.borderRadius,
-            padding:props.padding,
-            height:props.height,
-            cursor:props.cursor
-        }
+        {...props}
     }
       type="checkbox"/>
     </div>
