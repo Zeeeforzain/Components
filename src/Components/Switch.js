@@ -2,14 +2,14 @@ import React from "react";
 
 export default function Switch(props) {
   return (
-    <div> 
+    <div>
       <style>
         {`
           .switch {
             position: relative;
             display: inline-block;
-            width:${props.containerWidth};
-            height:${props.containerHeight};
+            width:${props.Width};
+            height:${props.Height};
             margin:${props.margin}
           }
 
@@ -76,14 +76,14 @@ export default function Switch(props) {
   );
 }
 Switch.defaultProps = {
-  containerWidth :'35px',
-       containerHeight:'14px',
-       toggleSize:'10px',
-        toggleColor:'white', 
-        colorOnTrue:'black',
-        backgroundColor:"grey",
-        toggleRadius:"10px",
-        containerRadius:"30px",
-        movement:"20px",
-        margin:'10px'
+  Width: "35px",
+  Height: "14px",
+  toggleSize: "10px",
+  toggleColor: "white",
+  colorOnTrue: "black",
+  backgroundColor: "grey",
+  toggleRadius: "10px",
+  containerRadius: "30px",
+  movement: "20px",
+  margin: "10px",
 };

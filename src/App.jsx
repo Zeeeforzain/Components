@@ -4,7 +4,6 @@ import Checkbox from "./Components/Checkbox";
 import Paragraph from "./Components/Paragraph";
 import Switch from "./Components/Switch";
 import TextField from "./Components/TextField";
-import VariantButton from "./Components/VariantButton"
 function App() {
   return (
     <div className="App">
@@ -16,20 +15,18 @@ function App() {
         fontFamily="Helvetica"
         fontWeight="700"
       />
-      <Button/>
       <Button
-        btnName="I'm A Button"
-        backgroundColor="whitesmoke"
-        width="150px"
-        height="5vh"
-        border="2px solid #4FD1C5"
-        margin="20px"
-        borderRadius="10px"
-        color="#4FD1C5"
-        cursor="pointer"
-        fontSize="12px"
-        fontFamily="Helvetica"
-        fontWeight="500"
+      variant='text'
+      // btnName='I am a button'
+      />
+      <Button
+      btnName='I am a button'
+      variant='outlined'
+      />
+      <Button
+      btnName='I am a button'
+      variant='contained'
+      fontSize='10px'
       />
       <Checkbox/>
       <Checkbox width="50px" height="30px" margin="20px" />
@@ -46,8 +43,8 @@ function App() {
       borderRadius="10px"
       backgroundColor="skyblue"
       />
-      <Switch containerWidth='35px'
-       containerHeight='14px' 
+      <Switch Width='35px'
+      Height='14px' 
        toggleSize='10px'
         toggleColor="white" 
         colorOnTrue="#4FD1C5"
@@ -57,7 +54,6 @@ function App() {
         movement="20px"
         margin='10px'
         />
-      <VariantButton/>
     </div>
   );
 }
