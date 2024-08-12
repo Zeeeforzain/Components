@@ -39,7 +39,7 @@ const variantStyles = {
   `,
 };
 
-const StyledButton = styled.button`
+const StyledButton = styled.VariantButton`
   ${props => variantStyles[props.variant] || variantStyles.contained}
 `;
 
@@ -51,7 +51,7 @@ function VariantButton(props) {
   );
 }
 
-Button.defaultProps = {
+VariantButton.defaultProps = {
   btnName: 'Enter Button Name',
   variant: 'contained', 
 };
