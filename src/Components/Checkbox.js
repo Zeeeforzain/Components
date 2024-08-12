@@ -5,7 +5,7 @@ export default function Checkbox(props) {
     <div className='checkbox'>
       <input 
       style={
-        {...props}
+        {...props}  
     }
       type="checkbox"/>
     </div>

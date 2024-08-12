@@ -4,7 +4,7 @@ import Checkbox from "./Components/Checkbox";
 import Paragraph from "./Components/Paragraph";
 import Switch from "./Components/Switch";
 import TextField from "./Components/TextField";
-
+import VariantButton from "./Components/VariantButton"
 function App() {
   return (
     <div className="App">
@@ -57,6 +57,7 @@ function App() {
         movement="20px"
         margin='10px'
         />
+      <VariantButton/>
     </div>
   );
 }
