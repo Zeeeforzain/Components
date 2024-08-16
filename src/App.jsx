@@ -17,16 +17,20 @@ function App() {
       />
       <Button
       variant='text'
-      // btnName='I am a button'
+      btnName='text'
+      margin='5px'
       />
       <Button
-      btnName='I am a button'
+      btnName='Outlined'
       variant='outlined'
+      margin='5px'
+      color='var(--primary)'
       />
       <Button
-      btnName='I am a button'
+      btnName='contained'
       variant='contained'
-      fontSize='10px'
+      backgroundColor="var(--primary)"
+      margin='5px'
       />
       <Checkbox/>
       <Checkbox width="50px" height="30px" margin="20px" />
@@ -40,18 +44,16 @@ function App() {
       border="none"
       padding="3px 10px"
       color="white"
-      borderRadius="10px"
+      borderRadius="0px"
       backgroundColor="skyblue"
       />
-      <Switch Width='35px'
-      Height='14px' 
+      <Switch width='36px'
+      height='14px' 
        toggleSize='10px'
         toggleColor="white" 
         colorOnTrue="#4FD1C5"
         backgroundColor="grey"
-        toggleRadius="15px"
-        containerRadius="30px"
-        movement="20px"
+        radius="3px"
         margin='10px'
         />
     </div>

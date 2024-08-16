@@ -8,8 +8,8 @@ export default function Switch(props) {
           .switch {
             position: relative;
             display: inline-block;
-            width:${props.Width};
-            height:${props.Height};
+            width:${props.width};
+            height:${props.height};
             margin:${props.margin}
           }
 
@@ -53,18 +53,18 @@ export default function Switch(props) {
           }
 
           input:checked + .slider:before {
-            -webkit-transform: translateX(${props.movement});
+            -webkit-transform: translateX(${props.movement  });
             -ms-transform: translateX(${props.movement});
             transform: translateX(${props.movement});
           }
 
           /* Rounded sliders */
           .slider.round {
-            border-radius: ${props.containerRadius};
+            border-radius: ${props.Radius};
           }
 
           .slider.round:before {
-            border-radius: ${props.toggleRadius};
+            border-radius: ${props.Radius};
           }
         `}
       </style>
